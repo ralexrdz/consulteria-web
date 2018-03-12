@@ -12,15 +12,15 @@
     - `ctrl + N` open new file
 
 
-##
-#### Titulo4
+## HTML
 
-- asd
-- asd
-  - asd
-  - asdasd
-    - asdasdasd
-    - asdasdasd
+Lenguaje que leen los browsers para pintar páginas de colores
 
-1. 123123
-1. 123123
+### Tags
+
+  - div
+    - ocupa todo el ancho (width) posible
+    - empieza en un renglón nuevo
+
+  - h1, h2, h3, h4, h5
+    - Tamaños de titulos
