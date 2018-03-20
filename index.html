@@ -3,71 +3,79 @@
   <head>
     <meta charset="utf-8">
     <title>Consultería</title>
-    <style media="screen">
-      h1 { color: red; }
-      div {
-        border: 1px solid green;
-        color: blue;
-        margin: 20px;
-        padding: 20px;
-      }
-
-      .yellow-border {
-        border-width: 1px;
-        border-style: dashed;
-        border-color: #367;
-        color: rgba(255, 0, 0, 0.5);
-      }
-
-      .yellow-border ul {
-        color: green;
-      }
-
-      #elmeromero {
-        font-size: 2em;
-        color: purple;
-      }
-
-      #elmermero > div {
-        color: grey;
-      }
-    </style>
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.css">
   </head>
   <body>
-    <h1>Hello world</h1>
-    <h2>Hello world</h2>
-    <h3>Hello world</h3>
-    <h4>Hello world</h4>
-    <h5>Hello world</h5>
-    
-    <div>
-      <ul class="yellow-border">
-        <li>1. hola</li>
-        <li>2. hola</li>
-        <li>3. hola</li>
-        <li>4. hola</li>
-        <li>5. hola</li>
-      </ul>
-    </div>
-    <div class="yellow-border">
-      <ul>
-        <li>1. hola</li>
-        <li>2. hola</li>
-        <li>3. hola</li>
-        <li>4. hola</li>
-        <li>5. hola</li>
-      </ul>
-    </div>
-    <div id="elmeromero">
-      asdasdasd
-      <div>
-        asdasd
-        <div>asdasd</div>
-        <div>asdasd</div>
-        <div>asdasd</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
+    <header>
+      <div id="logo">
+        <img src="https://picsum.photos/50/50" alt="">
       </div>
-    </div>
-    header>(button*3)+.content
+      <div id="title">
+        <div>
+          Titulo
+        </div>
+      </div>
+      <div id="search-menu">
+        <input type="text" name="" value="" placeholder="search">
+        <img src="https://picsum.photos/50/50" alt="">
+      </div>
+    </header>
+    <section id="portrait">
+      <div id="news">
+        <div id="news-swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/400/600" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/401/600" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/402/600" alt="">
+              </div>
+          </div>
+          <!-- If we need pagination -->
+          <div id="news-swiper-pagination"></div>
 
+          <!-- If we need navigation buttons -->
+          <div id="news-swiper-button-prev"></div>
+          <div id="news-swiper-button-next"></div>
+        </div>
+      </div>
+      <div id="pic">
+        <img src="https://picsum.photos/403/600" alt="">
+      </div>
+      <div id="archive">
+        <div id="archive-swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/404/600" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/405/600" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/406/600" alt="">
+              </div>
+          </div>
+          <!-- If we need pagination -->
+          <div id="archive-swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div id="archive-swiper-button-prev"></div>
+          <div id="archive-swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+    <script type="text/javascript" src="/js/home.js">
+
+    </script>
   </body>
 </html>

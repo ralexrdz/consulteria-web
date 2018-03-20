@@ -32,14 +32,26 @@
 
 ## Shell / Terminal
 
+  - ls
+    - lista archivos y directorios
   - mkdir
-  - cd
+    - Crea directorio
+  - cd <directory>
+    - navega a directorio
+    - `$ cd` lleva a home
   - nano
-  - cat
+    - editor de texto
+    - commandos
+      - `ctrl + x` salir
+  - cat <file>
+    - muestra en consola
   - touch
-  - rm
-    - rm -r (directories)
+    - crea un archivo vacío
+  - rm <file or directory>
+    - Elimina archivos o directorios
     - rm -rf (not empty directories)
+      - r: recursive
+      - f: force
 
   -
 
