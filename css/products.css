@@ -1,0 +1,12 @@
+div#products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+  #products .product-card {
+    height: 200px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+  }

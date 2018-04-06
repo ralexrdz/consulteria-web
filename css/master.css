@@ -79,3 +79,14 @@ section#portrait {
   display: flex;
   justify-content: center;
 }
+
+section#nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+  #nav a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid blue;
+  }
